@@ -1,1 +1,1 @@
-My first shell basics task
+Write a script that changes the working directory to the user’s home directory.
