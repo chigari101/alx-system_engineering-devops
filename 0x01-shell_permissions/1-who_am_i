@@ -1,2 +1,2 @@
 #!/bin/ban
-id -u -n
+whoami 1-who_am_i
