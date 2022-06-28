@@ -1,1 +1,1 @@
-Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+Write a command that finds all empty files and directories in the current directory and all sub-directories.
