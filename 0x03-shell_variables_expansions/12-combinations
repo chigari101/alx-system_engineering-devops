@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %s\n {o..o}{a..z} | fgrep -v "oo" 
+printf %s\n {a..a}{a..z} | fgrep -v "oo"
