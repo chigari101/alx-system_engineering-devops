@@ -18,3 +18,4 @@ backend web_servers
 
 # Restart HAproxy service
 service haproxy restart
+
