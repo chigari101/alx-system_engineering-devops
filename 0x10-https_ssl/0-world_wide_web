@@ -6,7 +6,7 @@ DNS_info () {
     echo "The subdomain $1 is a $(echo $ANSWER | awk '{print $4}') record and points to $(echo $ANSWER | awk '{print $5}')"
 }
 
-if [[ 1 == "#$" ]]; then
+if [[ $# == 1 ]]; then
     subdomains=('www' 'lb-01' 'web-01' 'web-02')
     for i in "${subdomains[@]}"; do
 	CONCAT="$i.$1"
